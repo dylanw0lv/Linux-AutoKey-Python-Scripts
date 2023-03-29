@@ -1,4 +1,38 @@
 # Linux-AutoKey-Python-Scripts
 
-Add the folders into AutoKey's data folder.
-Mine is located in /home/YOUR_USERNAME/.config/autokey/data.
+
+## Install
+
+Run command to install on Debian-based Linux distros:
+
+```
+sudo apt install autokey-gtk
+```
+
+On Fedora:
+
+```
+sudo dnf install autokey-gtk
+```
+
+On Arch Linux:
+
+```
+yay -Syy autokey-gtk
+```
+
+## Adding Scripts
+
+Open AutoKey and click 'New'
+
+![Screenshot](readme_images/new_file.png)
+
+
+Paste the code into the script
+
+![Screenshot](readme_images/paste_code.png)
+
+
+Set the hotkey to execute the script
+
+![Screenshot](readme_images/set_hotkey.png)
